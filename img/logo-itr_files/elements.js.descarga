@@ -1,0 +1,1 @@
+/* --- name: Elements.multiFadelicense: MIT-style; authors: [Michael Russell] */ Elements.implement({multiFade:function(b){var a=this;if(!b){b=0.3}this.addEvents({mouseenter:function(){a.filter(function(c){if(c!=this){return c}}.bind(this)).tween("opacity",b)},mouseleave:function(){a.tween("opacity",1)}})}});

@@ -1,0 +1,33 @@
+/**
+ * @version		3.2.5 June 1, 2011
+ * @author		RocketTheme http://www.rockettheme.com
+ * @copyright 	Copyright (C) 2007 - 2011 RocketTheme, LLC
+ * @license		http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ * @modified    7Studio http://www/7studio.eu/
+ */
+window.addEvent("domready", function() {
+    var b = document.id("gantry-totop");
+    if (b) {
+        var a = new Fx.Scroll(window);
+        b.setStyle("outline", "none").addEvent("click", function(c) {
+            c.stop();
+            a.toTop();
+        });
+    }
+        var c = new Tips(".totoptooltip", {
+        fixed: true,
+        onShow: function(b, f) {
+            b.setStyles({
+                display: "block",
+                opacity: 0
+            }).morph({
+                opacity: [0, 1]
+            });
+        },
+        onHide: function(b, f) {
+            b.morph.delay(100, b, {
+                opacity: [1, 0]
+            });
+        }
+    });
+});

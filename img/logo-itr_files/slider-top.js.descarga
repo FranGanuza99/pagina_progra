@@ -1,0 +1,10 @@
+/**
+ * @project   FutureProspects Joomla! 1.6 Template
+ * @version   1.0 March 22, 2011
+ * @author    7Studio http://www.7studio.eu/
+ * @copyright Copyright (C) 2007 - 2011 7Studio http://www.7studio.eu/
+ */
+window.addEvent("domready",function(){var a=new Fx.Slide("rt-top",{duration:650,transition:Fx.Transitions.Expo.easeInOut}).hide();$("v_toggle").addEvent("click",function(){a.toggle()})});
+
+
+

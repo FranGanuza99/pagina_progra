@@ -1,0 +1,68 @@
+.slideshowres{
+    background: #FFFFFF;
+}
+div.slideshowres a{
+	text-decoration:none;
+}
+
+div.slideshowres a:hover{
+	text-decoration:underline;
+}
+.slideshowres .sl-wrap .sl-item .sl-item-title,
+.slideshowres .sl-wrap .sl-item .sl-item-description{
+	margin-bottom:10px;
+}
+.slideshowres .sl-wrap .sl-item .sl-item-title,
+.slideshowres .sl-wrap .sl-item .sl-item-title a,
+.slideshowres .sl-wrap .sl-item .sl-item-title span {
+	color: #FFFFFF;
+	line-height: 21px;
+	font-size: 18px;
+}
+
+.slideshowres .sl-wrap .sl-item .sl-item-description {
+	color: #FFFFFF;
+	font-size:13px;
+}
+
+
+.slideshowres .sl-wrap .sl-item .sl-item-readmore,
+.slideshowres .sl-wrap .sl-item .sl-item-readmore a{
+	color: #FFFFFF;
+	font-size:12px;	
+	color: #FFFFFF;
+	text-align:right;
+}
+
+.slideshowres .sl-captions .sl-item-title a,
+.slideshowres .sl-captions .sl-item-title span {
+	white-space: nowrap;
+	line-height: 28px;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+
+.slideshowres.theme3 .sl-counter{
+	color: #FFFFFF;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 40px;
+	
+	display:none;
+}
+
+.slideshowres .pag-list .pag-item{
+	text-align: center;
+	background: none;
+	color: #B9B8BD;
+	font-weight: bold;
+	font-size: 16px;
+}
+
+.slideshowres.theme2 .sl-control{
+	background-color: #000000;
+}
+
+.slideshowres .transparency {
+	background-color: #000;	
+}
