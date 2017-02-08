@@ -11,15 +11,12 @@ $(document).ready(function(){
       $('.slider').slider('next');
       // Previous slide
       $('.slider').slider('prev');
+        $(".dropdown-button").dropdown();
+       $(".button-collapse").sideNav();
+       $('.modal').modal();
+       $('.materialboxed').materialbox();
+       $('.carousel').carousel();
 });
 
 
 
-$( document ).ready(function(){
-      $(".button-collapse").sideNav();
-})
-
-
-$( document ).ready(function(){
-      $(".dropdown-button").dropdown();
-})

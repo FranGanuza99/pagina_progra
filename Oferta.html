@@ -7,7 +7,7 @@
     <!--Optimizado para móviles -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-    <title>Ricaldone|Oferta</title>
+    <title>Ricaldone | Oferta</title>
     <!--  Importar Google Icon Font-->
     <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
@@ -18,84 +18,84 @@
 </head>
 
 <body>
+<!--se crea los submenus de la barra de navegacion, mediante las etiquetas de listas-->
+    <ul id="dropdown1" class="dropdown-content">
+        <li><a href="#!">Nuestra institución</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Director</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Contactos</a></li>
+    </ul>
+    <ul id="dropdown2" class="dropdown-content">
+        <li><a href="#!">Web Center</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Biblioteca</a></li>
+    </ul>
+    <ul id="dropdown3" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">two</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+    <ul id="dropdown4" class="dropdown-content">
+        <li><a href="#!">one</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">goo</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">three</a></li>
+    </ul>
+    <ul id="dropdown5" class="dropdown-content">
+        <li><a href="#!">Videos</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Galeria</a></li>
+    </ul>
+    <ul id="dropdown6" class="dropdown-content">
+        <li><a href="#!">Aula Virtual</a></li>
+        <li class="divider"></li>
+        <li><a href="#!">Notas</a></li>
+    </ul>
+<!--se crea la barra de navegacion-->
+    <nav class="nav-extended">
+        <img src="img/logo-itr2.jpg">
+        <h4 class="title">INSTITUTO TECNICO RICALDONE</h4>
+        <hr class="red">
+        <hr class="yellow">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo"></a>
+            <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li><a htref="#">Portada</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Instucional</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Servicios</a></li>
+                <li><a htref="#">CFP</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Alegria salesiana</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown4">Académico</a></li>
+                <li><a class="dropdown-button" href="#!" data-activates="dropdown5">Multimedia</a></li>
+                <li class=""><a class="dropdown-button" href="#!" data-activates="dropdown6">Área estudiantil</a></li>
+            </ul>
+            <ul class="side-nav" id="mobile-demo">
+                <li><a href="sass.html">Sass</a></li>
+                <li><a href="badges.html">Components</a></li>
+                <li><a href="collapsible.html">JavaScript</a></li>
+                <li><a class="active" href="index.html">Test 1</a></li>
+                <li><a href="#test2">Test 2</a></li>
+                <li><a href="#test3">Test 3</a></li>
+                <li><a href="#test4">Test 4</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!--se crea un contenedor para mantener organizada la pagina-->
     <div class="container">
-        <ul id="dropdown1" class="dropdown-content">
-            <li><a href="#!">Nuestra institución</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">Director</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">Contactos</a></li>
-        </ul>
-        <ul id="dropdown2" class="dropdown-content">
-            <li><a href="#!">Web Center</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">Biblioteca</a></li>
-
-        </ul>
-        <ul id="dropdown3" class="dropdown-content">
-            <li><a href="#!">one</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">two</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">three</a></li>
-        </ul>
-        <ul id="dropdown4" class="dropdown-content">
-            <li><a href="#!">one</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">goo</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">three</a></li>
-        </ul>
-        <ul id="dropdown5" class="dropdown-content">
-            <li><a href="#!">Videos</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">Galeria</a></li>
-        </ul>
-        <ul id="dropdown6" class="dropdown-content">
-            <li><a href="#!">Aula Virtual</a></li>
-            <li class="divider"></li>
-            <li><a href="#!">Notas</a></li>
-        </ul>
-
-        <nav class="nav-extended">
-            <img src="img/logo-itr2.jpg">
-            <h4 class="title">INSTITUTO TECNICO RICALDONE</h4>
-            <hr class="red">
-            <hr class="yellow">
-            <div class="nav-wrapper">
-                <a href="#" class="brand-logo"></a>
-
-                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a htref="#">Portada</a></li>
-                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Instucional</a></li>
-                    <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Servicios</a></li>
-                    <li><a htref="#">CFP</a></li>
-                    <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Alegria salesiana</a></li>
-                    <li><a class="dropdown-button" href="#!" data-activates="dropdown4">Académico</a></li>
-                    <li><a class="dropdown-button" href="#!" data-activates="dropdown5">Multimedia</a></li>
-                    <li class=""><a class="dropdown-button" href="#!" data-activates="dropdown6">Área estudiantil</a></li>
-                </ul>
-                <ul class="side-nav" id="mobile-demo">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
-                    <li><a class="active" href="index.html">Test 1</a></li>
-                    <li><a href="#test2">Test 2</a></li>
-                    <li><a href="#test3">Test 3</a></li>
-                    <li><a href="#test4">Test 4</a></li>
-                </ul>
-            </div>
-        </nav>
-
         <div id="grados">
             <h3>OFERTA ACADEMICA</h3>
             <br>
             <br>
             <H5>Tercer Ciclo</H5>
+            <!--mediante listas se van organizando los años y estos estan contenidos en un collapsible-->
             <ul class="collapsible popout" data-collapsible="accordion">
                 <li>
-                    <div class="collapsible-header">Septimo Grado</div>
+                    <div class="collapsible-header">Septimo, Octavo y Noveno Grado</div>
                     <div class="collapsible-body"><span><h5> DESCRIPCIÓN</h5>
                 <br>
                 <p>Agregado al pensum académico normado por el MINED, la institución imparte asignaturas de carácter formativo tales como Formación Cristiana, Informática e introducción a la Tecnología, así mismo se implementan los siguientes programas.</p>
@@ -133,84 +133,7 @@
                 <p>La educación musical es una actividad pedagógica que involucra diversos aspectos del desarrollo de los jóvenes. Comprende un conjunto de actividades que le permiten al joven manejar su voz, afinar su oído, desarrollar su sentido rítmico natural y expresarse corporalmente mediante ella. Todas estas actividades estas integradas de manera equitativa en un programa variado, significativo, interesante y diversificado de acuerdo a la edad y demás características del grupo de jóvenes. La concebimos como un medio o como un fin en sí misma. Como medio, la educación musical nos permite motivar, desarrollar o reforzar nociones propias de otros aprendizajes. Concretamente podemos desarrollar nociones lógico matemáticas, o juegos musicales. Como fin en sí misma, constituye una excelente vía de expresión, comunicación y creación que ejercita la sensibilidad humana, la inteligencia creadora y la imaginación.</p>
                 </span></div>
                 </li>
-                <li>
-                    <div class="collapsible-header">Octavo Grado</div>
-                    <div class="collapsible-body"><span><h5> DESCRIPCIÓN</h5>
-                <br>
-                <p>Agregado al pensum académico normado por el MINED, la institución imparte asignaturas de carácter formativo tales como Formación Cristiana, Informática e introducción a la Tecnología, así mismo se implementan los siguientes programas.</p>
-                <h5>PROGRAMA “INTELLECTUS”</h5>
-                <p>Es un programa de intervención educativa, destinado al fortalecimiento de las habilidades del pensamiento, que busca fundamentalmente enseñar “a pensar” a partir de un acompañamiento que realiza el profesor a través de la mediación.</p>
-                <ul>
-                     <li>-Práctico y motivador</li>
-                     <li>-Inespecífico en cuanto a contenidos</li>
-                     <li>-Flexibilizador del pensamiento</li>
-                     <li>-Estimulador de cooperación y socialización.</li>
-                </ul>
-                <h5>PROGRAMA “HÁBITOS Y TÉCNICAS E ESTUDIO”</h5>
-                <p>El programa de hábitos y técnicas de estudios es un conjunto de herramientas que fortalecen el proceso de enseñanza-aprendizaje de los/las estudiantes de educación básica, ayudándoles a adquirir buenos hábitos de estudio y aprender a estudiar eficazmente.</p>
-                <p> Los beneficios que un/una estudiante puede lograr con este programa son:</p>
-                <ul>
-                    <li>-Aumentar el entendimiento y retención de información leída.</li>
-                    <li>-Hacer el proceso de estudio más efectivo y agradable.</li>
-                    <li>-Optimizar el tiempo en el estudio, sin descuidar la calidad.</li>
-                    <li>-Tener tiempo libre para destinarlo a otras actividades que complementen su formación y le permitan ser una persona feliz, saludable y funcional en la sociedad.</li>
-                </ul>
-                <h5>PROGRAMA “ROBÓTICA EDUCATIVA”</h5>
-                <p>Es el programa que busca fomentar el gusto por la tecnología, la investigación y la ciencia. Mediante una tecnología única e innovadora, los alumnos construyen modelos mecatrónicos con materiales especializados y reciclados, adquieren conocimientos en las áreas de: electrónica, eléctrica, máquinas simples, programación y ciencias.</p> 
-                Los beneficios que se pueden alcanzar con los/las estudiantes son:
-                <ul>
-                    <li>-Modificar la percepción y motivación sobre el aprendizaje de las ciencias, las matemáticas y la tecnología.</li>
-                    <li>-Mejorar el pensamiento científico y la resolución de problemas.</li>
-                    <li>-Adquirir habilidades de pensamientos como la observación, estimación y manipulación.</li>
-                    <li>-Entender conceptos abstractos y obtener un nivel de entendimiento más funcional.</li>
-                    <li>-Desarrollar la creatividad en diferentes áreas de desarrollo.</li>
-                </ul>
-                <h5>INTRODUCCIÓN A LA TECNOLOGÍA</h5>
-                <p>La tecnología, como área de actividad del ser humano, busca solucionar problemas y necesidades individuales y colectivas, mediante la construcción de sistemas técnicos, y emplea para ello los recursos de la sociedad en la que está inmersa.  Esta asignatura técnica de 3° ciclo busca potenciar y motivar las aptitudes de los estudiantes para abordar con autonomía y creatividad problemas tecnológicos sencillos, mediante un trabajo ordenado y metódico, seleccionando y elaborando la documentación pertinente, concebir, diseñar y construir objetos o sistemas que resuelvan el problema estudiado, y evaluar su idoneidad), como preparación a cualquier tipo de realización personal o profesional futura.</p>
-                
-                <h5>EDUCACIÓN MUSICAL</h5>
-                <p>La educación musical es una actividad pedagógica que involucra diversos aspectos del desarrollo de los jóvenes. Comprende un conjunto de actividades que le permiten al joven manejar su voz, afinar su oído, desarrollar su sentido rítmico natural y expresarse corporalmente mediante ella. Todas estas actividades estas integradas de manera equitativa en un programa variado, significativo, interesante y diversificado de acuerdo a la edad y demás características del grupo de jóvenes. La concebimos como un medio o como un fin en sí misma. Como medio, la educación musical nos permite motivar, desarrollar o reforzar nociones propias de otros aprendizajes. Concretamente podemos desarrollar nociones lógico matemáticas, o juegos musicales. Como fin en sí misma, constituye una excelente vía de expresión, comunicación y creación que ejercita la sensibilidad humana, la inteligencia creadora y la imaginación.</p>
-                </span></div>
-                </li>
-                <li>
-                    <div class="collapsible-header">Noveno Grado</div>
-                    <div class="collapsible-body"><span><h5> DESCRIPCIÓN</h5>
-                <br>
-                <p>Agregado al pensum académico normado por el MINED, la institución imparte asignaturas de carácter formativo tales como Formación Cristiana, Informática e introducción a la Tecnología, así mismo se implementan los siguientes programas.</p>
-                <h5>PROGRAMA “INTELLECTUS”</h5>
-                <p>Es un programa de intervención educativa, destinado al fortalecimiento de las habilidades del pensamiento, que busca fundamentalmente enseñar “a pensar” a partir de un acompañamiento que realiza el profesor a través de la mediación.</p>
-                <ul>
-                     <li>-Práctico y motivador</li>
-                     <li>-Inespecífico en cuanto a contenidos</li>
-                     <li>-Flexibilizador del pensamiento</li>
-                     <li>-Estimulador de cooperación y socialización.</li>
-                </ul>
-                <h5>PROGRAMA “HÁBITOS Y TÉCNICAS E ESTUDIO”</h5>
-                <p>El programa de hábitos y técnicas de estudios es un conjunto de herramientas que fortalecen el proceso de enseñanza-aprendizaje de los/las estudiantes de educación básica, ayudándoles a adquirir buenos hábitos de estudio y aprender a estudiar eficazmente.</p>
-                <p> Los beneficios que un/una estudiante puede lograr con este programa son:</p>
-                <ul>
-                    <li>-Aumentar el entendimiento y retención de información leída.</li>
-                    <li>-Hacer el proceso de estudio más efectivo y agradable.</li>
-                    <li>-Optimizar el tiempo en el estudio, sin descuidar la calidad.</li>
-                    <li>-Tener tiempo libre para destinarlo a otras actividades que complementen su formación y le permitan ser una persona feliz, saludable y funcional en la sociedad.</li>
-                </ul>
-                <h5>PROGRAMA “ROBÓTICA EDUCATIVA”</h5>
-                <p>Es el programa que busca fomentar el gusto por la tecnología, la investigación y la ciencia. Mediante una tecnología única e innovadora, los alumnos construyen modelos mecatrónicos con materiales especializados y reciclados, adquieren conocimientos en las áreas de: electrónica, eléctrica, máquinas simples, programación y ciencias.</p> 
-                Los beneficios que se pueden alcanzar con los/las estudiantes son:
-                <ul>
-                    <li>-Modificar la percepción y motivación sobre el aprendizaje de las ciencias, las matemáticas y la tecnología.</li>
-                    <li>-Mejorar el pensamiento científico y la resolución de problemas.</li>
-                    <li>-Adquirir habilidades de pensamientos como la observación, estimación y manipulación.</li>
-                    <li>-Entender conceptos abstractos y obtener un nivel de entendimiento más funcional.</li>
-                    <li>-Desarrollar la creatividad en diferentes áreas de desarrollo.</li>
-                </ul>
-                <h5>INTRODUCCIÓN A LA TECNOLOGÍA</h5>
-                <p>La tecnología, como área de actividad del ser humano, busca solucionar problemas y necesidades individuales y colectivas, mediante la construcción de sistemas técnicos, y emplea para ello los recursos de la sociedad en la que está inmersa.  Esta asignatura técnica de 3° ciclo busca potenciar y motivar las aptitudes de los estudiantes para abordar con autonomía y creatividad problemas tecnológicos sencillos, mediante un trabajo ordenado y metódico, seleccionando y elaborando la documentación pertinente, concebir, diseñar y construir objetos o sistemas que resuelvan el problema estudiado, y evaluar su idoneidad), como preparación a cualquier tipo de realización personal o profesional futura.</p>
-                
-                <h5>EDUCACIÓN MUSICAL</h5>
-                <p>La educación musical es una actividad pedagógica que involucra diversos aspectos del desarrollo de los jóvenes. Comprende un conjunto de actividades que le permiten al joven manejar su voz, afinar su oído, desarrollar su sentido rítmico natural y expresarse corporalmente mediante ella. Todas estas actividades estas integradas de manera equitativa en un programa variado, significativo, interesante y diversificado de acuerdo a la edad y demás características del grupo de jóvenes. La concebimos como un medio o como un fin en sí misma. Como medio, la educación musical nos permite motivar, desarrollar o reforzar nociones propias de otros aprendizajes. Concretamente podemos desarrollar nociones lógico matemáticas, o juegos musicales. Como fin en sí misma, constituye una excelente vía de expresión, comunicación y creación que ejercita la sensibilidad humana, la inteligencia creadora y la imaginación.</p>
-                </span></div>
-                </li>
+
             </ul>
             <br>
             <br>
@@ -218,97 +141,563 @@
             <ul class="collapsible popout" data-collapsible="accordion">
                 <li>
                     <div class="collapsible-header">Electrónica</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body"><span>
+                       <h5> DESCRIPCIÓN</h5>
+
+                       <p> El Técnico en Electrónica es una persona con sólida formación técnica y humana que le permite insertarse en la vida laboral, ser agente productivo del país y promover su desarrollo personal a través de la convivencia y el bienestar en armonía social.</p>
+
+                       <p> Es un profesional con conciencia crítica, analítica y reflexiva, con un alto sentido de autoformación, responsabilidad, autonomía y desarrollo empresarial. Es una persona emocionalmente madura con gran sensibilidad y capaz de interpretar la realidad nacional; es honesta, responsable y socialmente comprometida. Diseña sistemas sencillos, brinda asistencia técnica, mantenimiento preventivo y correctivo a sistemas electrónicos que se relacionan con el campo de la producción automatizada industrial, biomédica, sistemas informáticos personales, telecomunicaciones, audio y video.</p>
+
+                        <h5>COMPETENCIAS TÉCNICAS DEL EGRESADO</h5>
+
+                        <ul>            
+                            <li>-Utiliza adecuadamente las herramientas, instrumentos y equipos de medición para el desarrollo de proyectos.</li>
+                            <li>-Prueba, verifica y diagnostica el adecuado funcionamiento de dispositivos electrónicos.</li>
+                            <li>-Realiza y administra programas de mantenimiento.</li>
+                            <li>-Utiliza herramientas informáticas como apoyo a la investigación y al desarrollo de proyectos.</li>
+                            <li>-Organiza y construye prototipos electrónicos funcionales, electrónica y mecánicamente, que motiven el razonamiento y la investigación.</li>
+                            <li>-Aplica normativos.</li>
+                            <li>-Se comunica utilizando el inglés como segundo idioma.</li>
+                            <li>-Desarrolla proyectos de emprendedurismo relacionados a su área de especialidad.</li>
+                        <ul>
+
+                        <h5>LABORATORIOS ESPECIALIZADOS</h5>
+                        <ul>
+                            <li>-Laboratorio de Electrónica Análoga</li>
+                            <li>-Laboratorio de Electrónica Digital</li>
+                            <li>-Laboratorio de Telecomunicaciones</li>
+                        </ul>
+                        <h5>PROYECCIÓN UNIVERSITARIA</h5>
+                        <ul>
+                            <li>-Técnico universitario en Electrónica o Electricidad.</li>
+                            <li>-Ingeniería Electrónica o Eléctrica.</li>
+                            <li>-Técnico en Mantenimiento Aeronáutico.</li>
+                            <li>-Ingeniería Mecatrónica.</li>
+                        </ul>
+                        <h5>ÁREAS DE DESEMPEÑO LABORAL</h5>
+                        <ul>
+                            <li>-Mantenimiento Electrónico.</li>
+                            <li>-Mantenimiento Informático.</li>
+                            <li>-Programador de sistemas PLC (Controlador lógico programable).</li>
+                        </ul>
+                        </span></div>
                 </li>
                 <li>
                     <div class="collapsible-header">Desarrollo de Software</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body"><span>
+                        <h5>DESCRIPCIÓN</h5>
+
+                        <p>El Bachiller Técnico en Desarrollo de Software, es un técnico de nivel medio, preparado para incorporarse a los procesos de desarrollo de aplicaciones de escritorio, intranet, web, dispositivos móviles, así como la creación y gestión de diversos tipos de bases de datos, y la instalación, configuración y mantenimiento de servidores, todo esto para aplicar adecuaciones o desarrollo de componentes de software en diversas áreas económicas y sociales en las cuales la cuantificación numérica de información, datos y la innovación es requerida.</p>
+
+                        <p>También cuenta con competencias básicas en el Área de configuración de dispositivos de red, siendo capaz de solucionar problemas de conectividad, crear, administrar y configurar redes de área local.</p>
+
+                       <p> Además, cuenta con las competencias y habilidades en el mantenimiento preventivo y correctivo de computadoras, que le permiten desarrollar actividades de reparación y ensamblaje de cualquier tipo de computadoras.</p>
+
+                       <h5> COMPETENCIAS TÉCNICAS DEL EGRESADO</h5>
+                        <ul>
+                            <li>Diseña soluciones informáticas utilizando lenguaje Unificado de Modelado (UML).</li>
+                            <li>Diseña la estructura, funcionamiento e interacción entre las partes de un software.</li>
+                            <li>Diseña modelos de datos que describen problemas reales bajo normas de estructura de datos.</li>
+                            <li>Administra componentes de una base de datos.</li>
+                            <li>Desarrolla aplicaciones orientadas a objetos para resolver una necesidad del cliente.</li>
+                            <li>Construye redes LAN bajo normas de certificación.</li>
+                            <li>Comercializa servicios de Diseño, Construcción y Configuración de Portales Web.</li>
+                            <li>Se comunica utilizando el inglés como segundo idioma.</li>
+                            <li>Desarrolla sistemas en entorno Web, utilizando lenguajes de tercera generación.</li>
+                            <li>Gestiona la operación del sistema informático.</li>
+                            <li>Administra bases de datos.</li>
+                            <li>Elabora documentación de sistemas informáticos.</li>
+                        </ul>
+                       <h5>LABORATORIOS ESPECIALIZADOS</h5>
+                        <ul>
+                            <li>Laboratorios para desarrollo de software.</li>
+                            <li>Área destinada a la programación y desarrollo de software con lenguajes de privativos u opensourse.</li>
+                        </ul>
+                        <h5>PROYECCIÓN UNIVERSITARIA</h5>
+                        <ul>
+                            <li>Ingeniería en Computación.</li>
+                            <li>Técnico en Computación.</li>
+                        </ul>
+                        <h5>ÁREAS DE DESEMPEÑO LABORAL</h5>
+                        <ul>
+                            <li>-Analista de sistemas.</li>
+                            <li>-Animador multimedia.</li>
+                            <li>-Técnico de aseguramiento de calidad.</li>
+                            <li>-Desarrollador de aseguramiento de calidad.</li>
+                            <li>-Desarrollador de páginas web y aplicaciones.</li>
+                            <li>-Microempresario en el área de desarrollo web.</li>
+                            <li>-Diseñador de sistemas y bases de datos.</li>
+                            <li>-Arquitecto de sistemas.</li>
+                            <li>-Instalador de redes LAN.</li>
+                            <li>-Microempresario en el área de diseño, construcción y configuración de portales web.</li>
+                            <li>-Desarrollador de aplicaciones web con lenguaje de tercera generación.</li>
+                            <li>-Gestor de la operación de los sistemas informáticos.</li>
+                            <li>-Administrador de base de datos.</li>
+                            <li>-Documentador de sistemas.</li>
+                       <ul>
+                        </span></div>
                 </li>
                 <li>
                     <div class="collapsible-header">Infraestructura Tecnológica</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body"><span>
+                        <h5>DESCRIPCIÓN</h5>
+
+                       <p>La especialidad en Infraestructura Tecnológica y Servicios Informáticos (ITSI) proporciona al estudiante las herramientas necesarias para desarrollar habilidades y destrezas en mantenimiento preventivo y correctivo de computadoras, configuración y mantenimiento de los equipos informáticos en estado óptimo para su buen desempeño, instalación y administración de redes locales; también es capaz de proveer soporte técnico a las empresas e implementar políticas de procedimientos técnicos.</p>
+
+                        <p>El bachiller con especialidad ITSI también posee conocimientos en otras áreas como el Desarrollo de Software, Diseño Web, Auditoria de Sistemas y Gestión de la Seguridad Informática. Además, el Instituto Técnico Ricaldone prepara a los estudiantes del bachillerato en Infraestructura Tecnológica para la certificación ICDN1 que comprende los módulos de CCNA Routing & Switching 1 y 2.</p>
+
+                        <h5>COMPETENCIAS TÉCNICAS DEL EGRESADO</h5>
+                        <ul>
+                            <li> -Utiliza herramientas de gestión de datos para la consulta de información almacenada en sistemas de bases de datos.</li>
+                            <li> -Utiliza herramientas para la administración de sistemas de base de datos.</li>
+                            <li> -Instala, configura y administra sistemas de información empresarial.</li>
+                            <li> -Reconoce alarmas y fallas en la infraestructura centros de datos.</li>
+                            <li> -Instala, configura y administra sistemas de información operativos (servicios de red).</li>
+                            <li> -Audita políticas y procedimientos del uso correcto de la tecnología, sistemas de información y procedimientos relativos a la seguridad informática.</li>
+                            <li> -Sostiene conversaciones en idioma inglés relacionadas con temáticas y áreas de su especialidad.</li>
+                            <li> -Formula proyectos para consultoría tecnológica para el sector MICROPYME.</li>
+                        </ul>
+                       <h5>LABORATORIOS ESPECIALIZADOS</h5>
+                       <ul>
+                            <li> -Cisco Networking Academy. Laboratorio para la formación en redes de computadoras con tecnología CISCO</li>
+                            <li> -Lab de Mantenimiento de computadoras. Área utilizada para prácticas de mantenimiento tanto en software como en hardware.</li>
+                       </ul>
+                        <h5>PROYECCIÓN UNIVERSITARIA</h5>
+                        <ul>
+                            <li>-Ingeniería en Computación.</li>
+                            <li>-Técnico en Computación.</li>
+                        </ul>
+                        <h5>ÁREAS DE DESEMPEÑO LABORAL</h5>
+                        <ul>
+                            <li>-Operador de centros de datos.</li>
+                            <li>-Encargado de infraestructura tecnológica.</li>
+                            <li>-Administrador de servicios de red o sistemas de información operativos.</li>
+                            <li>-Auxiliar de auditoría de sistemas.</li>
+                        <ul>
+                        </span></div>
                 </li>
                 <li>
                     <div class="collapsible-header">Mantenimiento Automotriz</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body"><span>
+                        <h5>DESCRIPCIÓN</h5>
+
+                        <p>El bachillerato técnico vocacional en mantenimiento automotriz, tiene como finalidad de desarrollar competencias técnicas y académicas para que los alumnos puedan desenvolverse en ámbitos laborales automotrices con alta demanda como es en los procesos de mantenimientos preventivos y correctivos a los sistemas auxiliares al motor de combustión interna (lubricación, refrigeracion, arranque, carga, etc) ademas tendrán competencias técnicas en el mantenimiento de los sistemas auxiliares al chasis (suspensión, transmisión, dirección), también reunirán las habilidades técnicas  para efectuar diagnósticos a los sistemas electrónicos del vehículo, entre ellos se encuentran: los sistemas de encendido electrónico, inyección electrónica, aceleración controlada, transmisiones automáticas y como parte del desarrollo tecnológico se implementa el estudio a los sistemas de Diésel controlado, así mismo reunirán los conocimientos y competencias necesarios para poder desarrollarse de manera autónoma, sin perder el enfoque de buenos cristianos y honrados ciudadanos.</p>
+
+                        <h5>COMPETENCIAS TÉCNICAS DEL EGRESADO</h5>
+                        <ul>
+                            <li>Utiliza herramientas y equipos para el diagnóstico y mantenimiento preventivo y correctivo de vehículos.</li>
+                            <li>Elabora presupuestos de costos para efectuar los procesos de diagnóstico y mantenimiento preventivo y correctivo de vehículos.</li>
+                            <li>Ejecuta el montaje y desmontaje de componentes requeridos en el proceso de diagnóstico y mantenimiento de vehículos.</li>
+                            <li>Interpreta manuales técnicos relacionados con el diagnóstico y mantenimiento preventivo y correctivo de vehículos.</li>
+                            <li>Calibra o ajusta los componentes que lo requieran en el proceso de diagnóstico y mantenimiento preventivo y correctivo de vehículos.</li>
+                            <li>Compra los repuestos y materiales requeridos para el diagnóstico y mantenimiento preventivo y correctivo de vehículos.</li>
+                            <li>Comprueba la efectividad de las operaciones realizadas durante el diagnóstico y mantenimiento preventivo y correctivo de vehículos.</li>
+                            <li>Elabora informes de las operaciones realizadas durante el diagnóstico y mantenimiento preventivo y correctivo de vehículos.</li>
+                            <li>Ejecuta los servicios de mantenimiento aplicando los principios de calidad.</li>
+                            <li>Aplica los principios de atención al cliente durante el prestamos de servicios.</li>
+                            <li>Realiza el proceso de recepción y entrega de vehículos.</li>
+                            <li>Asesora e informa al cliente durante el proceso de mantenimiento del vehículo.</li>
+                            <li>Gestiona el proceso de mantenimiento a ejecutar por los técnicos.</li>
+                        </ul>
+                        <h5>LABORATORIOS ESPECIALIZADOS</h5>
+                        <ul>
+                            <li>Taller de automotriz. Área dedicada a la formación en la especialidad de Automotriz esta cuenta con los requerimientos de infraestructura y equipo para el mantenimiento de Automotores.</li>
+                        </ul>
+                        <h5>PROYECCIÓN UNIVERSITARIA</h5>
+                        <ul>
+                            <li>Ingeniería Industrial.</li>
+                            <li>Ingeniería Mecánica.</li>
+                            <li>Técnico superior Automotriz</li>
+                            <li>Técnico mantenimiento Aeronáutico.</li>
+                        </ul>
+                        <h5>ÁREAS DE DESEMPEÑO LABORAL</h5>
+                        <ul>
+                       <li>Mecánico de planta para servicio rápido.</li>
+                       <li>Supervisor de mantenimiento.</li>
+                       <li>Mecánico para mantenimiento de equipo pesado.</li>
+                       <li>Asesor de ventas de repuestos automotrices.</li>
+                       <li>Jefe de personal de mantenimiento automotriz.</li>
+                       <li>Dueño de taller automotriz.</li>
+                        </ul>
+                        </span></div>
                 </li>
                 <li>
                     <div class="collapsible-header">Administrativo Contable</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body"><span>
+                        <h5>DESCRIPCIÓN</h5>
+
+                        <p>El bachillerato Técnico Vocacional Administrativo Contable, brinda las competencias para lograr potenciar las diferentes habilidades pre-profesionales aplicadas para diseñar, organizar y controlar información financiera y económica, relacionada con las operaciones empresariales, procesos de control interno, contabilidad, mercadotecnia y administración de los distintos sectores que conforman la economía; efectuando técnicas, herramientas, conocimientos e interpretación correcta de normas, procedimientos, políticas y leyes mercantiles, civiles, financieras, aduanales y tributarias. Potenciando competencias técnicas, humano-sociales, académicas y emprendedoras en el alumnado para continuar estudios superiores y que le permitan incorporarse al mundo productivo como empleado o empleador.</p>
+
+                        <P>Se fomenta el espíritu emprendedor, practica de valores morales y cristianos, el manejo de un segundo idioma, la actualización tecnológica, la equidad de género, la protección al medio ambiente y el trabajo en equipo como parte fundamental de la formación integral del estudiante.</P>
+
+                        <h5>COMPETENCIAS TÉCNICAS DEL EGRESADO</h5>
+                        <ul>
+                            <li>Genera estados financieros con las características específicas a cada giro de negocio.</li>
+                            <li>Identifica y aplica la normativa enfocada a obligaciones laborales, adquisición y contratación con el sector público-privado y mercantil para operar en el país.</li>
+                            <li>Aplica técnicas para realizar el proceso de selección del personal idóneo.</li>
+                            <li>Elabora cálculos para pago de planillas.</li>
+                            <li>Formula estrategias empresariales innovadoras y acordes al entorno macroeconómico para desarrollar proyectos efectivos de comercialización internacional.</li>
+                            <li>Evalúa la factibilidad y rentabilidad de proyectos de inversión.</li>
+                            <li>Calcula tasas de interés, capitalización con interés simple y compuesto, anualidades, valor futuro, valor actual neto y tasa interna de retorno.</li>
+                            <li>Interpreta información de mercadeo en idioma inglés.</li>
+                            <li>Elabora proyectos emprendedores para la auto empleabilidad.</li>
+                            <li>Identifica necesidades para desarrollar proyectos acordes a los mercados emergentes internacionales.</li>
+                        </ul>
+                        <h5>LABORATORIOS ESPECIALIZADOS</h5>
+                        <ul>
+                            <li>Laboratorio de contabilidad. Laboratorio especializado para el trabajo de la especialidad del área contable que cuenta con software afines</li>
+                        </ul>
+                        <h5>PROYECCIÓN UNIVERSITARIA</h5>
+                        <ul>
+                            <li>Licenciatura en administración de empresas.</li>
+                            <li>Licenciatura en contaduría.</li>
+                            <li>Licenciatura en mercadeo.</li>
+                        </ul>
+                        <h5>ÁREAS DE DESEMPEÑO LABORAL</h5>
+                        <ul>
+                        <li>>Asistente de recursos humanos.</li>
+                        <li>>Asesor de negocios.</li>
+                        <li>>Asistente contable.</li>
+                        <li>>Asistente administrativo.</li>
+                        <li>>Gerente de su propia empresa.</li>
+                        </ul>
+                        </span></div>
                 </li>
                 <li>
                     <div class="collapsible-header">Electromecánica</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body"><span>
+                        <h5>DESCRIPCIÓN</h5>
+
+                        <p>El Bachiller Técnico vocacional en Electromecánica es capaz de operar, montar y mantener maquinaria y equipo industrial en las diferentes áreas tales como: Torno, Fresa, CNC’s, Equipos de Soldadura convencional, autógena y especiales, Elementos neumáticos e hidráulicos, Motores eléctricos y Autómatas programables para la realización de líneas automatizadas de producción de acuerdo con los reglamentos y normativas vigentes, siguiendo los protocolos de calidad, seguridad e higiene ocupacional y de prevención de riesgos laborales.</p>
+
+                        <p>En el proceso de formación del estudiante se fomenta y fortalece la capacidad de análisis en la resolución de problemas, el espíritu emprendedor e innovador, la equidad de género, la protección al medio ambiente y el trabajo en equipo como parte del eje curricular de desarrollo humano en el cumplimiento de las competencias establecidas.</p>
+
+                        <h5>COMPETENCIAS TÉCNICAS DEL EGRESADO</h5>
+                        <ul>
+                            <li>Elabora piezas en fresadora convencional.</li>
+                            <li>Diseña programas de sistemas automatizados aplicados a equipos industriales.</li>
+                            <li>Diseña programas de sistemas automatizados aplicando hidráulica y neumática.</li>
+                            <li>Elabora diseños industriales con software CAD.</li>
+                            <li>Diseña y mecaniza piezas metálicas en máquinas herramientas CNC.</li>
+                            <li>Planifica el montaje y desmontaje de elementos y partes de máquina.</li>
+                            <li>Implementa ideas de negocios, por medio de micro empresas de electromecánica.</li>
+                            <li>Interpreta manuales técnicos en inglés.</li>
+                        </ul>
+                        <h5>LABORATORIOS ESPECIALIZADOS</h5>
+                        <ul>
+                            <li>Taller de mecánica (torno, fresadora, ajuste y soldadura). Áreas dedicadas al trabajo en metal mecánico para la elaboración de piezas de precisión.</li>
+                            <li>Mecatrónica. Laboratorio y centro de maquinado dedicado al diseño de piezas asistida por computadoras con el software SolidWorks y el maquinado de las mismas con tecnología CNC tanto en Fresadora como en Torno.</li>
+                            <li>Taller de electricidad y maquinas eléctricas. Área destinada a formar a los jóvenes en el área eléctrica específicamente en Instalaciones eléctricas residenciales e industriales, control de motores con lógica cableada y con autómatas programables.</li>
+                            <li>Lab de neumática. Laboratorio especializado para el desarrollo de prácticas del área de neumática, hidráulica, electroneumática y electrohidráulica.</li>
+                        </ul>
+                        <h5>PROYECCIÓN UNIVERSITARIA</h5>
+                        <ul>
+                            <li> Carreras técnicas a nivel de Ingeniería Eléctrica, Mecánica General, Mecánica opción CNC, Industrial, Biomédica y Mecatrónica.</li>
+                            <li>Ingeniería Eléctrica, Mecánica, Industrial, Biomédica y Mecatrónica.</li>
+                        </ul>
+                       <h5> ÁREAS DE DESEMPEÑO LABORAL</h5>
+                       <ul>
+                            <li>Mantenimiento mecánico.</li>
+                            <li>Mantenimiento electrónico de maquinaria y equipo.</li>
+                            <li>Diagramador y operados de CNC.</li>
+                            <li>Automatización de procesos industriales.</li>
+                            <li>Mantenimiento eléctrico industrial.</li>
+                        <ul>
+                        </span></div>
                 </li>
                 <li>
                     <div class="collapsible-header">Diseño Gráfico</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body"><span>
+                        <h5>DESCRIPCIÓN</h5>
+
+                        <p>El Bachiller Técnico vocacional en Diseño gráfico es capaz de desempeñarse en los procesos de conceptualización, interpretación y diseño de piezas gráficas con objetivos clave de comunicación. Se enfoca además en procesos de investigación, generación de ideas y fundamentos del diseño como parte principal para la ejecución de proyectos a nivel gráfico y el desarrollo de propuestas de estrategias de comunicación.</p>
+
+                        <p>Durante su proceso de formación se busca potenciar las competencias y habilidades que le permiten desarrollar actividades de su profesión para desenvolverse en forma autónoma en los diversos campos de la especialidad o en el desarrollo de productos innovadores.</p>
+
+                        <p>En el proceso de formación se fomenta el espíritu emprendedor, la equidad de género, la protección al medio ambiente y el trabajo en equipo como parte del eje curricular de desarrollo humano.</p>
+
+                        <h5>COMPETENCIAS TÉCNICAS DEL EGRESADO</h5>
+                        <ul>
+                            <li> -Configura artes finales para su producción.</li>
+                            <li> -Experimenta técnicas y aplicación fotográfica para la solución de piezas gráficas publicitarias.</li>
+                            <li> -Desarrolla proyectos de identidad corporativa y manuales de marca.</li>
+                            <li> -Aplica técnicas ilustrativas en la solución de piezas publicitarias.</li>
+                            <li> -Desarrolla e implementa estrategias creativas en campañas publicitarias.</li>
+                            <li> -Produce videos y animaciones con fines publicitarios.</li>
+                            <li> -Elabora portafolios de proyectos para la proyección de marca personal.</li>
+                            <li> -Realiza presentaciones de proyectos gráficos en idioma inglés.</li>
+                        </ul>
+                        <h5>LABORATORIOS ESPECIALIZADOS</h5>
+                        <ul>
+                            <li> -Laboratorios de MAC. Laboratorios especializados para el trabajo de la especialidad de Diseño Gráfico que cuenta con software de diseño como lo es la suite de Adobe CS6.</li>
+                        </ul>
+                        <h5>PROYECCIÓN UNIVERSITARIA</h5>
+                        <ul>
+                            <li>Técnico en Diseño gráfico.</li>
+                            <li>Licenciatura en Diseño gráfico.</li>
+                            <li>Licenciatura en Diseño industrial.</li>
+                            <li>Licenciatura en Diseño artesanal.</li>
+                        </ul>
+                       <h5>ÁREAS DE DESEMPEÑO LABORAL</h5>
+                       <ul>
+                        <li> -Diseñador gráfico.</li>
+                        <li> -Arte finalista.</li>
+                        <li> -Diseñador freelance.</li>
+                       </ul>
+                        </span></div>
                 </li>
                 <li>
                     <div class="collapsible-header">Arquitectura</div>
-                    <div class="collapsible-body"><span>Lorem ipsum dolor sit amet.</span></div>
+                    <div class="collapsible-body"><span>
+                        <h5>DESCRIPCIÓN</h5>
+
+                        <p>La especialidad de arquitectura está orientada a la formación de técnicos en el área de diseño arquitectónico de edificaciones, busca el desarrollo de competencias para elaborar planos arquitectónicos, planos hidráulicos y eléctricos, planos de cimentaciones y estructura, aborda el proceso constructivo, sistemas constructivos de mayor uso en El Salvador, prepara en el dominio de la topografía para realizar mediciones de terrenos con estación total y GPS, sin dejar de lado la tecnología informática por medio del uso de sistemas CAD, Revit Architecture, Auto CAD, Civil CAD y Photoshop para la digitalización y renderización de proyectos arquitectónicos.</p>
+
+                        <p>Se desarrollan habilidades artísticas para promocionar proyectos con técnicas de pintura, acuarela, tempera, grafito y color.</p>
+
+                        <p>Se estudia el color, la configuración espacial y formal con la elaboración de maquetas descriptivas y volumétricas.</p>
+
+                        <p>La especialidad integra diferentes programas didácticos Modulares para el desarrollo de competencias que permitan al egresado desempeñarse con éxito en áreas de diseño, construcción y digitalización de proyectos siendo un asistente valioso y necesario para el arquitecto o ingeniero civil.</p>
+
+                        <h5>COMPETENCIAS TÉCNICAS DEL EGRESADO</h5>
+                        <ul>
+                            <li> -Crea diseños arquitectónicos sustentables que cumplan con los requisitos económicos, estéticos, medioambientales y técnicos.</li>
+                            <li> -Diseña espacios habitables de pequeña y mediana, siendo capaz de ver las necesidades de la sociedad en el ámbito económico, cultural y social.</li>
+                            <li> -Maneja herramientas e instrumentos de dibujo para la elaboración de planos arquitectónicos y constructivos.</li>
+                            <li> -Establece criterios de proyección y diseño en base a una sensibilización de la historia de la arquitectura.</li>
+                            <li> -Usa técnicas de expresión gráfica y maquetería para la representación de proyectos.</li>
+                            <li> -Utiliza programas informáticos para desarrollar presentaciones y planos.</li>
+                            <li> -Ejecuta levantamientos topográficos.</li>
+                            <li> -Presenta propuestas arquitectónicas en idioma inglés.</li>
+                        </ul>
+                        <h5>LABORATORIOS ESPECIALIZADOS</h5>
+                        <ul>
+                            <li> -Lab en práctica de AutoCAD. Laboratorio especializado para el trabajo de la especialidad de Arquitectura que cuenta con software de diseño asistido por computadora como lo es Autocad, Arquitectural Revit entre otros.</li>
+                        </ul>
+                        <h5>PROYECCIÓN UNIVERSITARIA</h5>
+                        <ul>
+                            <li> -Técnico en Ingeniería Civil y Arquitectura.</li>
+                            <li> -Ingeniería Civil.</li>
+                        </ul>
+                        <h5>ÁREAS DE DESEMPEÑO LABORAL</h5>
+                        <ul>
+                            <li> -Dibujante arquitectónico.</li>
+                            <li> -Operador de software en CAD.</li>
+                            <li> -Asistente en proyectos arquitectónicos.</li>
+                        </ul>
+                        </span></div>
                 </li>
             </ul>
+            <br>
+            <br>
+            <H5>TÉCNICOS SUPERIOR UNIVERSITARIOS QUE SE OFRECEN</H5>
+            <ul class="collapsible popout" data-collapsible="accordion">
+                <li>
+                    <div class="collapsible-header">Bachillerato Técnico Vocacional Industrial opción Electrónica y Técnico Superior en Ingeniería Electrónica</div>
+                    <div class="collapsible-body"><span>
+                        <h5>TÉCNICO SUPERIOR EN INGENIERÍA ELECTRÓNICA</h5>
 
+                        <h5>COMPETENCIAS:</h5>
+                        <ul>
+                            <li> -Construcción de circuitos a partir de diagramas electrónicos.</li>
+                            <li> -Seleccionar y operar equipo de medición para la prueba y mantenimiento de sistemas electrónicos.</li>
+                            <li> -Conocimientos sobre normas y simbología de dispositivos y sistemas.</li>
+                            <li> -Conocimiento sobre la teoría de funcionamiento de dispositivos, circuitos y sistemas eléctricos y electrónicos relacionados con su especialidad.</li>
+                            <li> -Utilizar normas, estándares, características, especificaciones y parámetros críticos para la selección, adaptación o adecuación de dispositivos a circuitos o sistemas electrónicos aplicados.</li>
+                            <li> -Selección y aplicación de equipo de instrumentación electrónica aplicada.</li>
+                            <li> -Implementar proyectos electrónicos en sistemas analógicos y digitales.</li>
+                            <li> -Diagnosticar y corregir fallas en equipos electrónicos.</li>
+                            <li> -Diseño y fabricación de circuitos impresos con la técnica apropiada.</li>
+                            <li> -Habilidad manual para el uso de equipo y herramientas finas.</li>
+                            <li> -Sentido lógico para usar equipo de alta tecnología.</li>
+                            <li> -Interpretación de información técnica en manuales de servicio.</li>
+                            <li> -Desarrollar mantenimiento preventivo y correctivo de equipo electrónico.</li>
+                        </ul>
+                        <h5>Campos de acción:</h5>
+                        <ul>
+                        <li> -Diseñador de circuitos electrónicos.</li>
+                        <li> -Encargado de mantenimiento electrónico</li>
+                        <li> -Programador de computadoras.</li>
+                        <li> -Instructores de Electrónica.</li>
+                        <li> -Técnicos en telecomunicaciones</li>
+                        <li> -Técnico en automatización</li>
+                        <li> -Técnico en mantenimiento a procesos industriales</li>
+                        <li> -Capacidad para la elaboración y evaluación de informes de ejecución y supervisión de proyectos.</li>
+                        <li> -Conocimientos de software para la elaboración de diagramas impresos y simulación de circuitos electrónicos.</li>
+                        <li> -Bases sobre las redes de área local y dispositivos que se utilizan en la vía de comunicación más grande, Internet.</li>
+                        <li> -Capacidad personal en conocimientos y habilidades requeridas para el servicio técnico de su área.</li>
+                        <li> -Inventiva y curiosidad científica
+                        <ul>
+                        </span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">Bachillerato Técnico Vocacional Industrial opción Sistemas Informáticos y Técnico Superior en Ingeniería
+                        en Computación</div>
+                    <div class="collapsible-body"><span>
+                        <h5>TÉCNICO EN INGENIERÍA EN COMPUTACIÓN</h5>
 
+                        <h5>COMPETENCIAS:</h5>
+                        <ul>
+                            <li> -Conocer y manejar diferentes ambientes y equipos de procesamiento de datos y sus sistemas operativos y herramientas para el desarrollo de aplicaciones.</li>
+                            <li> -Diseñar y desarrollar programas utilizando diversos lenguajes y ambientes de programación.</li>
+                            <li> -Diseñar, desarrollar, depurar y probar los sistemas de información que satisfagan las necesidades de información y el desarrollo más eficiente y productivo de las organizaciones y personas con quien se desempeñe.</li>
+                            <li> -Asimilar de manera eficaz y eficiente los nuevos desarrollos tecnológicos de hardware y software y evaluar su posible utilización en las actividades que desempeña la organización o equipo de trabajo con quien colabore.</li>
+                            <li> -Dominio en diseño, mantenimiento y soporte en redes, diseño y certificación en la construcción de una red, dominio de protocolos de comunicación y sus aplicaciones.</li>
+                            <li> -Conocimiento de metodologías de diseño y administración de datos, como Modelo Entidad Relación, con base en las nuevas plataformas utilizando el modelo relacional y especificaciones SQL, que se implementan sobre la base de datos SQL</li>
+                            <li> -Dominio de tecnologías de Internet y aplicación de los conceptos de comercio electrónico, Business to Business (B2B), Business to Consumer (B2C), Consumer to Consumer (C2C),  administración de servicios WEB, domino las técnicas y lenguajes de programación para la aplicación de comercio electrónico.</li>
+                            <li>Conocimientos de electrónica, diseño y funcionamiento de circuitos impresos, integración, ensamblaje y configuración de partes y piezas de computadores, y periféricos reparación de ellos,  seguridad  en la red y transmisión de datos.</li>
+                        </ul>
+                        <h5>Campos de acción:</h5>
+                        <ul>
+                            <li>  -Analista de sistemas de información.</li>
+                            <li>  -Administrador y gerente de centros de cómputo.</li>
+                            <li>  -Administrador de bases de datos.</li>
+                            <li>  -Programador de computadoras.</li>
+                            <li>  -Instructores de informática.</li>
+                            <li>  -Auxiliar de auditores de sistemas.</li>
+                            <li>  -Área de Proyectos: Consultor de desarrollo de sistemas y proyectos tecnológicos; administradores de sus propias empresas para satisfacer la necesidad de bienes y servicios de cómputo del mercado nacional.</li>
+                            <li>  -Área de Diseño Gráfico Computacional: Esta área está focalizada sobre los aspectos creativos de diseño basados en materiales gráficos. Dibujo, color,  técnicas y expresión gráfica, percepción visual, marketing, entre otras, son parte del diseño gráfico asistido por computador.</li>
+                            <li>Área de Animación 3D: Esta área introduce a los alumnos en los conceptos de animación 3D basados en el uso del computador. Conforman esta área los siguientes temas: la ilustración, la animación, formatos narrativos, técnicas audiovisuales con animación, técnicas de realización de guiones y técnicas digitales.</li>
+                        </ul>
+                        </span></div>
+                </li>
+                <li>
+                    <div class="collapsible-header">Bachillerato Técnico Vocacional Industrial opción Diseño Gráfico y Técnico Superior en Diseño Gráfico</div>
+                    <div class="collapsible-body"><span>
+                        <h5>TÉCNICO EN DISEÑO GRÁFICO</h5>
+
+                        <h5>COMPETENCIAS:</h5>
+
+                        <h5>Competencias personales:</h5>
+                        <ul>
+                            <li> -Posee una sólida y definida identidad personal.</li>
+                            <li> -Tiene un auto-concepto equilibrado de si mismo en todas sus dimensiones.</li>
+                            <li> -Manifiesta apertura a los valores y posee conciencia ética.</li>
+                        </ul>
+                        <h5>Competencia cognitivas:</h5>
+                        <ul>
+                            <li>Manifiesta apertura a la verdad científica, filosófica y religiosa.</li>
+                            <li>Es capaz de ampliar y gestionar cooperativamente sus procesos de aprendizaje y de seguir formándose durante la vida.</li>
+                        </ul>
+                        <h5>Competencias productivas:</h5>
+                        <ul>
+                            <li>Es capaz de integrar los conocimientos teóricos de diseño gráfico con la habilidad práctica no sólo al concepto a diseñar sino también a la realidad y a las necesidades del entorno social.</li>
+                            <li>Está técnicamente capacitado para manejar con eficiencia equipos y herramientas y crear, diseñar o diagramar libros, revistas, afiches, ilustraciones, campañas publicitarias, etc.</li>
+                        </ul>
+                        <h5>Competencias sociales:</h5>
+                        <ul>
+                            <li>Es capaz de establecer relaciones humanas maduras y trabajar en equipo.</li>
+                            <li>Se muestra socialmente sensible, honesto y solidario frente a la realidad del país.</li>
+                            <li>Es consciente de sus responsabilidades democráticas.</li>
+                        </ul>
+                        <h5>CAMPO DE ACTUACIÓN</h5>
+
+                        <p>El campo del diseño gráfico se desarrolla en los siguientes ambientes:</p>
+                        <ul>
+                            <li> -En el sector privado; en agencias de publicidad, en editoriales, en departamentos especializados de empresas o como empresario o consultor independiente cuando participe en el desarrollo de productos de un modo integral.</li>
+                            <li> -En el sector público en los departamentos de comunicaciones.</li>
+                            <li> -En medios de comunicación masiva.</li>
+                            <li> -En la enseñanza e investigación y en el diseño de nuevos materiales.</li>
+                            <li> -En instituciones de educación media y superior y en centros de capacitación de personal.</li>
+                        </ul>
+                        <h5>COMPETENCIAS A LOGRAR</h5>
+                        <ul>
+                            <li> -Conocimiento y aplicación del proceso creativo.</li>
+                            <li> -Conocimiento y aplicación de las técnicas básicas.</li>
+                            <li> -Conocimiento de la geometría abstracta para la abstracción espacial en la mente del alumno, favoreciendo el paso de la bidimensión a la tridimensión.</li>
+                            <li> -Desarrolla habilidades de expresión a través del dibujo.</li>
+                            <li> -Adquiere destrezas de expresión oral y escrita.</li>
+                            <li> -Desarrolla sensibilidad social.</li>
+                            <li> -Ubica los antecedentes y desarrollo del diseño en el área.</li>
+                            <li> -Dominio de software especializado para el dibujo asistido por computadora.</li>
+                            <li> -Conoce y aplica metodología para el diseño.</li>
+                            <li> -Dominio de software especializado para el tratamiento de imágenes así como maquetación y edición de textos.</li>
+                            <li> -Aplica efectivamente los fundamentos teóricos del diseño así como la destreza manual y tecnológica a propuestas de diseño.</li>
+                            <li> -Aplica técnicas básicas y conocimientos del dibujo a propuestas a base de fotografía e ilustración.</li>
+                            <li> -Dominio de la producción de artes finales para pre-prensa.</li>
+                            <li> -Pone en práctica los conocimientos en el desarrollo de propuestas de diseño dentro y para las empresas.</li>
+                        </ul>
+                        </span></div>
+                </li>
+            </ul>
+            <hr size="2">
+            <br>
+            <h5>ACADEMIA CISCO</h5>
+            <hr size="2">
+            <br>
+            <h5>ESCUELA DE EDUCACIÓN PARVULARIA CATÓLICA “PEDRO RICALDONE"</h5>
+            <ul>
+                <li> -Kinder 4</li>
+                <li> -Kinder 5</li>
+                <li> -Parvularia</li>
+            </ul>
+            <hr size="2">
+            <br>
+            <h5>ACTIVIDADES EXTRACURRICULARES</h5>
+            <ul>
+                <li> -Oratorio festivo</li>
+                <li> -Movimiento Juvenil Salesiano</li>
+                <li> -Grupo Scout No. 7</li>
+                <li> -Escuela de artes para niños</li>
+                <li> -Club de Natación Ricaldone</li>
+            </ul>
+            <hr size="2">
+            <h5>SERVICIOS PASTORALES</h5>
+            <ul>
+                <li> -IGLESIA PÚBLICA</li>
+
+                <li> -El Templo “Santo Domingo Savio", es un Centro de Espiritualidad Juvenil, que reúne a los/as alumnos/as del
+                    Ins tuto, los días de semana y presta servicios litúrgicos a la comunidad del entorno y a las familias
+                    de los alumnos/as.</li>
+
+                <li> -Catequesis de Primera Comunión.</li>
+
+                <li> -Catequesis de Confirmación.</li>
+
+                <li> -Grupos de la Familia Salesiana: Asociación de María Auxiliadora y Salesianos Cooperadores.</li>
+
+                <li> -Grupos Carismatico Santo Domingo Savio</li>
+            </ul>
         </div>
 
 
-
-
     </div>
-
-
-
-
-
-
-
-
-    <footer class="page-footer">
+    <!--se crea footer-->
+    <footer class="page-footer grey darken-2">
         <div class="container">
             <div class="row">
-                <a href="#">Portada  |  </a>
-                <a href="#">Noticias  |  </a>
-                <a href="#">Capacitaciones  |  </a>
-                <a href="#">Oferta Adémica  |  </a>
-                <a href="#">Calendario escolar  |  </a>
-                <a href="#">Correo electrónico</a>
+
                 <div class="col l6 s12">
-
-                    <p class="grey-text text-lighten-4">
-
-                        <div class="col s12 m6">
-                            <h4>Section</h4>
-                            <p>The section class is used for simple top and bottom padding. Just add the <code class=" language-markup">section</code>                                class to your div's containing large blocks of content.</p>
-                        </div>
-
-                        <div class="col s12 m6">
-                            <h4>Section</h4>
-                            <p>The section class is used for simple top and bottom padding. Just add the <code class=" language-markup">section</code>                                class to your div's containing large blocks of content.</p>
-                        </div>
-                    </p>
+                    </font>
+                    <p><img src="img/footer/logo.png " /></p>
+                    <p>
+                        <img src="img/footer/lo1.png " />
+                        <img src="img/footer/lo2.png " />
+                        <img src="img/footer/lo3.png " />
+                        <img src="img/footer/lo4.png " />
+                        <p/>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                    <h5 class="white-text">Links</h5>
+                    <h5 class="white-text">Direccion</h5>
                     <ul>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
-                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Avenida Aguilares #218, Centro Urbano Libertad.</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">San Salvador, El Salvador</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Tel: (503) 2234-6000</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Fax: (503) 2234-6085</a></li>
                     </ul>
                 </div>
             </div>
         </div>
-
-        <div class="footer-copyright">
+        <div class="footer-copyright  grey darken-3">
             <div class="container">
-                © 2014 Copyright Text
-                <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+                Copyright © 2017 Ricaldone.
+                <a class="grey-text text-lighten-4 right" href="#">Calendario  |</a>
+                <a class="grey-text text-lighten-4 right" href="#">Ofertas  |</a>
+                <a class="grey-text text-lighten-4 right" href="#">Estudiante  |</a>
+                <a class="grey-text text-lighten-4 right" href="#">Portada  |</a>
             </div>
         </div>
     </footer>
-
     <!--Importar jQuery antes materialize.js-->
     <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
     <!-- Importar materialiaze.js -->
