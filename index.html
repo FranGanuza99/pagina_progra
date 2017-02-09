@@ -6,22 +6,27 @@
         <!--Optimizado para móviles -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
       
-        <title>materialize</title>
+        <title>RICALDONE | ITR </title>
         <!--  Importar Google Icon Font-->
         <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
       
-        <!--  Importar materialize.css-->
+
+        <!--  archivos css-->
         <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
         <link type="text/css" rel="stylesheet" href="css/mystyle.css" media="screen,projection"/>
 
     </head>
 
     <body>
-        
+
+
+        <!-- Menu: estos son los menus desplegables -->
         <ul id="dropdown1" class="dropdown-content">
-            <li><a href="#!">Nuestra institución</a></li>
+            <li><a href="public/institucional.html">Nuestra institución</a></li>
             <li class="divider"></li>
-            <li><a href="#!">Director</a></li>
+            <li><a href="public/saludo.html">Saludo del Director</a></li>
+            <li class="divider"></li>
+            <li><a href="public/identidad.html">Nuestra identidad</a></li>
             <li class="divider"></li>
             <li><a href="#!">Contactos</a></li>
         </ul>
@@ -46,6 +51,7 @@
             <li><a href="#!">three</a></li>
         </ul>
 
+        <!-- Menu: este es el menu junto con el logo y el titulo-->
         <nav class="nav-extended">
             <img src = "img/logo-itr2.jpg">
             <h4 class = "title">INSTITUTO TÉCNICO RICALDONE</h4>
@@ -53,10 +59,11 @@
             <hr class="yellow">
             <div class="nav-wrapper">
                 <a href="#" class="brand-logo"></a>
-                
+                <!-- Menu: este es el menu horizontal para pantallas grandes  -->
                 <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <!-- Menu: items del menu horizontal -->
                 <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li><a htref = "#">Portada</a></li>
+                    <li><a htref = "index.html">Portada</a></li>
                     <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Instucional</a></li>
                     <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Servicios</a></li>
                     <li><a htref = "#">CFP</a></li>
@@ -65,89 +72,194 @@
                     <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Multimedia</a></li>
                     <li class="active"><a class="dropdown-button" href="#!" data-activates="dropdown1">Área estudiantil</a></li>
                 </ul>
+
+                <!-- Menu: este es el menu vertical para pantallas pequeñas  -->
+                <!-- Menu: items del menu vertical -->
                 <ul class="side-nav" id="mobile-demo">
-                    <li><a href="sass.html">Sass</a></li>
-                    <li><a href="badges.html">Components</a></li>
-                    <li><a href="collapsible.html">JavaScript</a></li>
-                    <li><a class="active" href="index.html">Test 1</a></li>
-                    <li><a href="#test2">Test 2</a></li>
-                    <li><a href="#test3">Test 3</a></li>
-                    <li><a href="#test4">Test 4</a></li>
+                    <li><a href="index.html" >Portada</a></li>
+                    <li><a class="dropdown-button" href="#" data-activates="dropdown1">Institucional</a></li>
+                    <li><a href="#">Servicios</a></li>
+                    <li><a href="#">Alegria salesiana</a></li>
+                    <li><a href="#">Académico</a></li>
+                    <li><a href="#">Multimedia</a></li>
+                    <li><a href="#">Área estudiantil</a></li>
                 </ul>
             </div>
         </nav>
 
            
-
+        <!-- slider: comienza slider -->
         <div class="slider">
+            <!-- slider: imagenes del slider  -->
             <ul class="slides">
-                <li><img class="responsive-img" src="img/img1.png"> <!-- random image --></li>
-                <li><img class="responsive-img" src="img/img2.jpg"> <!-- random image --></li>
-                <li><img class="responsive-img" src="img/img3.png"> <!-- random image --></li>
+                <li><img class="responsive-img" src="img/img1.png"></li>
+                <li><img class="responsive-img" src="img/img2.jpg"></li>
+                <li><img class="responsive-img" src="img/img3.png"></li>
             </ul>
         </div>
 
-        <div class="row">
-            <div class="col s9 push-s3">.
-                <span class="flow-text">
-                
-                </span></div>
-            <div class="col s3 pull-s9">
-                <span class="flow-text">
-                </span></div>
-        </div>
-
+        <!-- Container: desde aqui esta toda la informacion de la pagina  -->
         <div class = "container">
-                
 
-            <!-- Promo Content 1 goes here -->
+             <!-- Container: se inicia una fila -->
             <div class="row">
-                <h4 class="apart">Noticias</h4>
-                
+                <!-- Container: titulo del apartado  -->
+                <h4 class="aparte">Noticias</h4>
+                <!-- Columna: primer columna -->
                 <div class="col s12 m3">
+                    <!-- card: se inicia una carta de noticas -->
                     <div class="card">
+                        <!-- card: imagen de la carta-->
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="img/noticias/new1.jpg">
-                            </div>
-                            <div class="card-content">
+                        </div>
+                        <!-- card: contenido de la carta inicio-->
+                        <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Ricaldone abrió las puertas al año escolar<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">Continue reading</a></p>
-                            </div>
-                            <div class="card-reveal">
+                            <p><a href="#">Ver noticia...</a></p>
+                        </div>
+                        <!-- card: contenido de la carta al dar clic-->
+                        <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Ricaldone abrió las puertas al año escolar<i class="material-icons right">close</i></span>
                             <p>Con la apertura del año académico, el Instituto Técnico Ricaldone se sitúa a un paso de la celebración de los 60 años de su fundación. Y esta nueva generación de alumnos formará parte de este hito histórico que deja mucha trayectoria en muchas generaciones en la educación técnica y académica.</p>
-                            </div>
                         </div>
+                    </div>
                 </div>
+                <!-- Columna: segunda columna -->
                 <div class="col s12 m3">
+                    <!-- card: se inicia otra carta de noticas -->
                     <div class="card">
+                        <!-- card: imagen de la carta-->
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="img/noticias/new2.jpg">
-                            </div>
-                            <div class="card-content">
+                        </div>
+                        <!-- card: contenido de la carta inicio-->
+                        <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Entre los colegios con mejor resultado PAES<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">Continue reading</a></p>
-                            </div>
-                            <div class="card-reveal">
+                            <p><a href="#">Ver noticia...</a></p>
+                        </div>
+                        <!-- card: contenido de la carta al dar clic-->
+                        <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Entre los colegios con mejor resultado PAES<i class="material-icons right">close</i></span>
                             <p>Según el Informe de Resultado de la Prueba de Aprendizaje y Aptitudes para Egresados de Educación Media (PAES) 2016, dados por el Ministerio de Educación, el Instituto Técnico Ricaldone figura entre los primeros 10 colegios mejor evaluados a nivel nacional.</p>
-                            </div>
                         </div>
+                    </div>
                 </div>
+                <!-- Columna: tercera columna -->
                 <div class="col s12 m3">
+                    <!-- card: se inicia otra carta de noticas -->
                     <div class="card">
+                        <!-- card: imagen de la carta-->
                         <div class="card-image waves-effect waves-block waves-light">
                             <img class="activator" src="img/noticias/new3.jpg">
-                            </div>
-                            <div class="card-content">
+                        </div>
+                        <!-- card: contenido de la carta inicio-->
+                        <div class="card-content">
                             <span class="card-title activator grey-text text-darken-4">Donativo a familia Vásquez<i class="material-icons right">more_vert</i></span>
-                            <p><a href="#">Continue reading</a></p>
-                            </div>
-                            <div class="card-reveal">
+                            <p><a href="#">Ver noticia...</a></p>
+                        </div>
+                        <!-- card: contenido de la carta al dar clic-->
+                        <div class="card-reveal">
                             <span class="card-title grey-text text-darken-4">Donativo a familia Vásquez<i class="material-icons right">close</i></span>
                             <p>En un gesto de solidaridad nuestros alumnos, personal y algunos padres de familia, recaudaron un pequeño donativo para la familia de nuestro alumno Kevin Vásquez que nada más se nos adelanto en este camino de la vida.</p>
-                            </div>
                         </div>
+                    </div>
+                </div>
+                <!-- Columna: cuarta columna -->
+                <div class="col s12 m3">
+                    <!-- card: se inicia otra carta de noticas -->
+                    <div class="card">
+                        <!-- card: imagen de la carta-->
+                        <div class="card-image waves-effect waves-block waves-light">
+                            <img class="activator" src="img/noticias/new4.jpg">
+                        </div>
+                        <!-- card: contenido de la carta inicio-->
+                        <div class="card-content">
+                            <span class="card-title activator grey-text text-darken-4">Celebración del día de la familia<i class="material-icons right">more_vert</i></span>
+                            <p><a href="#">Ver noticia...</a></p>
+                        </div>
+                        <!-- card: contenido de la carta al dar clic-->
+                        <div class="card-reveal">
+                            <span class="card-title grey-text text-darken-4">Celebración del día de la familia<i class="material-icons right">close</i></span>
+                            <p>Nada como una tarde en familia disfrutando de rifas, juegos, baile y música. Eso y mucho más se vivió en nuestro día de la familia.</p>
+                            <p>La celebración inició con la Santa Eucaristía, orando para que cada día las familias se unan más  para la armonía del hogar.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Row: se inicia una nueva fila  -->
+            <div class= "row">
+                <!-- pagination: se inicia el componente de paginacion  -->
+                <ul class="pagination">
+                    <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
+                    <li class="active"><a href="#!">1</a></li>
+                    <li class="waves-effect"><a href="#!">2</a></li>
+                    <li class="waves-effect"><a href="#!">3</a></li>
+                    <li class="waves-effect"><a href="#!">4</a></li>
+                    <li class="waves-effect"><a href="#!">5</a></li>
+                    <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
+                </ul>
+            </div>
+            
+            <!-- Container: titulo del apartado  -->
+            <h4 class="aparte">Videos</h4>              
+            <!-- Row: se inicia una nueva fila  -->
+            <div class="row">
+                <!-- Columna: primer columna -->
+                <div class="col s12 m4">
+                    <!-- card: se inicia otra carta de video -->
+                    <div class="card">
+                        <!-- card: imagen de la carta-->
+                        <div class="card-image">
+                            <img src="img/video-img/img03.jpg">
+                            <span class="card-title">Padre Alex Figueroa: un saludo y un hasta pronto</span>
+                        </div>
+                        <!-- card: contenido de la carta inicio-->
+                        <div class="card-content">
+                            <p>“Deseo que esta comunidad siga fortaleciéndose y que los jóvenes encuentren en esta casa..</p>
+                        </div>
+                        <!-- card: opcion de reproducir video-->
+                        <div class="card-action ">
+                            <a href="#"><i class="material-icons">play_arrow</i>  Reproducir</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Columna: segunda columna -->
+                <div class="col s12 m4">
+                    <!-- card: se inicia otra carta de videos -->
+                    <div class="card">
+                        <!-- card: imagen de la carta-->
+                        <div class="card-image">
+                            <img src="img/video-img/img01.jpg">
+                            <span class="card-title">A un paso de los 60 años</span>
+                        </div>
+                        <!-- card: contenido de la carta inicio-->
+                        <div class="card-content">
+                            <p>La casa de la Alegría recibió este año a  más de 1400 alumnos, que con mucho entusiasmo..</p>
+                        </div>
+                        <!-- card: opcion de reproducir video-->
+                        <div class="card-action ">
+                            <a href="#"><i class="material-icons">play_arrow</i>  Reproducir</a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Columna: tercera columna -->
+                <div class="col s12 m4">
+                    <div class="card">
+                        <!-- card: se inicia otra carta de video -->                       
+                        <div class="card-image">
+                            <img src="img/video-img/img02.jpg">
+                            <span class="card-title">Septiembre 2017</span>
+                        </div>
+                        <!-- card: contenido de la carta inicio-->
+                        <div class="card-content">
+                            <p>Este año estamos a las puertas de celebrar un hito histórico, donde se cumplirán 60 años de..</p>
+                        </div>
+                        <!-- card: opcion de reproducir video-->
+                        <div class="card-action ">
+                            <a href="#"><i class="material-icons">play_arrow</i>  Reproducir</a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col s12 m3">
                     <div class="card">
@@ -177,58 +289,10 @@
                     <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
                 </ul>
             </div>
-            
 
-            <h4 class="apart">Videos</h4>
-
-                
-                
-            <div class="row">
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/video-img/img03.jpg">
-                            <span class="card-title">Padre Alex Figueroa: un saludo y un hasta pronto</span>
-                        </div>
-                        <div class="card-content">
-                            <p>“Deseo que esta comunidad siga fortaleciéndose y que los jóvenes encuentren en esta casa..</p>
-                        </div>
-                        <div class="card-action ">
-                            <a href="#"><i class="material-icons">play_arrow</i>  Reproducir</a>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/video-img/img01.jpg">
-                            <span class="card-title">A un paso de los 60 años</span>
-                        </div>
-                        <div class="card-content">
-                            <p>La casa de la Alegría recibió este año a  más de 1400 alumnos, que con mucho entusiasmo..</p>
-                        </div>
-                        <div class="card-action ">
-                            <a href="#"><i class="material-icons">play_arrow</i>  Reproducir</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col s12 m4">
-                    <div class="card">
-                        <div class="card-image">
-                            <img src="img/video-img/img02.jpg">
-                            <span class="card-title">Septiembre 2017</span>
-                        </div>
-                        <div class="card-content">
-                            <p>Este año estamos a las puertas de celebrar un hito histórico, donde se cumplirán 60 años de..</p>
-                        </div>
-                        <div class="card-action ">
-                            <a href="#"><i class="material-icons">play_arrow</i>  Reproducir</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Row: se inicia una nueva fila  -->
             <div class= "row">
+                <!-- pagination: se inicia el componente de paginacion  -->
                 <ul class="pagination">
                     <li class="disabled"><a href="#!"><i class="material-icons">chevron_left</i></a></li>
                     <li class="active"><a href="#!">1</a></li>
@@ -239,11 +303,22 @@
                     <li class="waves-effect"><a href="#!"><i class="material-icons">chevron_right</i></a></li>
                 </ul>
             </div>
+            <h4 class="aparte">Ubicación</h4>
         </div>
+        
+        <div id="map"></div>
+        <br>
+
+
+
+
+        <!-- Footer: desde aqui es el footer -->
         <footer class="page-footer grey darken-2">
             <div class="container">
+                <!-- Footer: se inicia una fila -->
                 <div class="row">
-                 
+                    <!-- Footer: primer columna -->
+
                     <div class="col l6 s12"> </font>
                         <p><img src="img/footer/logo.png " /></p> 
                         <p>  
@@ -251,9 +326,9 @@
                             <img src="img/footer/lo2.png "/>        
                             <img src="img/footer/lo3.png "/>      
                             <img src="img/footer/lo4.png " /> 
-                        <p/>
+                        </p>
                     </div>
-
+                    <!-- Footer: segunda columna -->
                     <div class="col l4 offset-l2 s12">
                         <h5 class="white-text">Direccion</h5>
                         <ul>
@@ -265,7 +340,7 @@
                     </div>
                 </div>
             </div>
-            
+            <!-- Footer: parte final del footer -->
             <div class="footer-copyright  grey darken-3">
                 <div class="container">
                     Copyright © 2017 Ricaldone.
@@ -278,8 +353,10 @@
 
 
         </footer>
-
-        <!--Importar jQuery antes materialize.js-->
+        <script async defer
+            src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCIoJVUPi8R1hk2Hptr-dtEjFt5D2elnUw&callback=initMap">
+        </script>
+        <!-- JavaScripts -->
         <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
         <!-- Importar materialiaze.js -->
         <script type="text/javascript" src="js/materialize.min.js"></script>
