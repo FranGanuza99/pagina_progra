@@ -5,9 +5,25 @@ $(document).ready(function(){
             transition: 600,
       });
 
+      $('.slider').slider('pause');
+      // Start slider
+      $('.slider').slider('start');
+      // Next slide
+      $('.slider').slider('next');
+      // Previous slide
+      $('.slider').slider('prev');
+        $(".dropdown-button").dropdown();
+       $(".button-collapse").sideNav();
+       $('.modal').modal();
+       $('.materialboxed').materialbox();
+       $('.carousel').carousel();
+});
+
+
       $(".button-collapse").sideNav();
 
       $(".dropdown-button").dropdown();
+
 
       $('.parallax').parallax();
       
@@ -31,3 +47,4 @@ function initMap() {
       title: 'Hello World!'
       });
 }
+

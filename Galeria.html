@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta name=description content="">
+    <!--Optimizado para móviles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Ricaldone | Galeria</title>
+    <!--  Importar Google Icon Font-->
+    <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!--  Importar materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link type="text/css" rel="stylesheet" href="css/mystyle.css" media="screen,projection" />
+
+</head>
+
+<body>
+    <!--se crea listado de los submenus de la barra de navegacion, con las etiquetas de listas-->
+        <ul id="dropdown1" class="dropdown-content">
+            <li><a href="#!">Nuestra institución</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Director</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Contactos</a></li>
+        </ul>
+        <ul id="dropdown2" class="dropdown-content">
+            <li><a href="#!">Web Center</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Biblioteca</a></li>
+
+        </ul>
+        <ul id="dropdown3" class="dropdown-content">
+            <li><a href="#!">one</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">two</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">three</a></li>
+        </ul>
+        <ul id="dropdown4" class="dropdown-content">
+            <li><a href="#!">one</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">goo</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">three</a></li>
+        </ul>
+        <ul id="dropdown5" class="dropdown-content">
+            <li><a href="#!">Videos</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Galeria</a></li>
+        </ul>
+        <ul id="dropdown6" class="dropdown-content">
+            <li><a href="#!">Aula Virtual</a></li>
+            <li class="divider"></li>
+            <li><a href="#!">Notas</a></li>
+        </ul>
+        <!--se crea la barra de navegacion-->
+        <nav class="nav-extended">
+            <img src="img/logo-itr2.jpg">
+            <h4 class="title">INSTITUTO TECNICO RICALDONE</h4>
+            <hr class="red">
+            <hr class="yellow">
+            <div class="nav-wrapper">
+                <a href="#" class="brand-logo"></a>
+
+                <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a htref="#">Portada</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown1">Instucional</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown2">Servicios</a></li>
+                    <li><a htref="#">CFP</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown3">Alegria salesiana</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown4">Académico</a></li>
+                    <li><a class="dropdown-button" href="#!" data-activates="dropdown5">Multimedia</a></li>
+                    <li class=""><a class="dropdown-button" href="#!" data-activates="dropdown6">Área estudiantil</a></li>
+                </ul>
+                <ul class="side-nav" id="mobile-demo">
+                    <li><a href="sass.html">Sass</a></li>
+                    <li><a href="badges.html">Components</a></li>
+                    <li><a href="collapsible.html">JavaScript</a></li>
+                    <li><a class="active" href="index.html">Test 1</a></li>
+                    <li><a href="#test2">Test 2</a></li>
+                    <li><a href="#test3">Test 3</a></li>
+                    <li><a href="#test4">Test 4</a></li>
+                </ul>
+            </div>
+        </nav>
+         <div class="container">
+        <h3>GALERIA</h3>
+        <!--se muestra un pequeno carrusel de fotos importantes-->
+        <div class="carousel">
+            <a class="carousel-item" href="#one!"><img src="img/galeria/carrusel/img6.jpg"></a>
+            <a class="carousel-item" href="#two!"><img src="img/galeria/carrusel/img1.jpg"></a>
+            <a class="carousel-item" href="#three!"><img src="img/galeria/carrusel/img2.jpg"></a>
+            <a class="carousel-item" href="#four!"><img src="img/galeria/carrusel/img3.jpg"></a>
+            <a class="carousel-item" href="#five!"><img src="img/galeria/carrusel/img4.jpg"></a>
+            <a class="carousel-item" href="#six!"><img src="img/galeria/carrusel/img5.jpg"></a>
+            <a class="carousel-item" href="#seven!"><img src="img/galeria/carrusel/img0.jpg"></a>
+        </div>
+        <h5>ÁLBUMES</h5>
+        <!--mediante la herramienta collapsible se muestra de forma organizada los albumes de fotos, adicionalmente se encuentan divididos por las columnas imaginarias-->
+        <ul class="collapsible popout" data-collapsible="accordion">
+            <li>
+                <div class="collapsible-header">Celebración del día de Don Bosco</div>
+                <div class="collapsible-body"><span>
+         <div class="row">
+             <!--se inicia la organizacion de las fotos-->
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img1.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img2.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img3.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img4.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img5.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img6.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img7.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img8.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img9.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img10.jpg">
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img11.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img12.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img13.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img14.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img15.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img16.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img17.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img18.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img19.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img20.jpg">
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img21.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img22.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img23.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img24.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img25.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img26.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img27.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img28.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img29.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img30.jpg">                
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img31.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img32.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img33.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img34.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img35.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img36.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img37.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img38.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img39.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/celebracion/img40.jpg">   
+            </div>
+        </div>     
+          </span></div>
+            </li>
+            <li>
+                <div class="collapsible-header">Primera semana de clases</div>
+                <div class="collapsible-body"><span>
+           <div class="row">
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/semana/img1.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/semana/img2.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/semana/img3.jpg">      
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/semana/img4.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/semana/img5.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/semana/img6.jpg">
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/semana/img7.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/semana/img8.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/semana/img9.jpg">
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/semana/img10.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/semana/img11.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/semana/img11.jpg">   
+            </div>
+        </div>
+
+          </span></div>
+            </li>
+            <li>
+                <div class="collapsible-header">Inicio de Año Escolar 2017</div>
+                <div class="collapsible-body"><span>
+           <div class="row">
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img1.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img2.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img3.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img4.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img5.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img6.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img7.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img8.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img9.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img10.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img41.jpg">
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img11.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img12.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img13.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img14.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img15.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img16.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img17.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img18.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img19.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img20.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img42.jpg">
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img21.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img22.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img23.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img24.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img25.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img26.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img27.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img28.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img29.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img30.jpg">          
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img43.jpg">  
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img45.jpg">    
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img31.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img32.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img33.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img34.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img35.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img36.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img37.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img38.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img39.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img40.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/inicio/img44.jpg">
+           </div>
+        </div>     
+          </span></div>
+            </li>
+
+            <li>
+                <div class="collapsible-header">Curso de Inducción</div>
+                <div class="collapsible-body"><span>
+        <div class="row">
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img1.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img2.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img3.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img4.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img5.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img6.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img7.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img8.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img9.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img10.jpg">
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img11.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img12.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img13.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img14.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img15.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img16.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img17.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img18.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img19.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img20.jpg">
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img21.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img22.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img23.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img24.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img25.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img26.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img27.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img28.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img29.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img30.jpg">                
+           </div>
+            <div class="col s12 m6 l3">
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img31.jpg">
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img32.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img33.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img34.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img35.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img36.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img37.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img38.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img39.jpg">   
+                <br>
+                <img class="materialboxed" width="260" src="img/galeria/induccion/img40.jpg">   
+            </div>
+          </div>     
+          </span>
+                </div>
+            </li>
+        </ul>
+    </div>
+    <!--se crea el footer-->
+    <footer class="page-footer grey darken-2">
+        <div class="container">
+            <div class="row">
+
+                <div class="col l6 s12">
+                    </font>
+                    <p><img src="img/footer/logo.png " /></p>
+                    <p>
+                        <img src="img/footer/lo1.png " />
+                        <img src="img/footer/lo2.png " />
+                        <img src="img/footer/lo3.png " />
+                        <img src="img/footer/lo4.png " />
+                        <p/>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Direccion</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Avenida Aguilares #218, Centro Urbano Libertad.</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">San Salvador, El Salvador</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Tel: (503) 2234-6000</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Fax: (503) 2234-6085</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright  grey darken-3">
+            <div class="container">
+                Copyright © 2017 Ricaldone.
+                <a class="grey-text text-lighten-4 right" href="#">Calendario  |</a>
+                <a class="grey-text text-lighten-4 right" href="#">Ofertas  |</a>
+                <a class="grey-text text-lighten-4 right" href="#">Estudiante  |</a>
+                <a class="grey-text text-lighten-4 right" href="#">Portada  |</a>
+            </div>
+        </div>
+    </footer>
+    <!--Importar jQuery antes materialize.js-->
+    <script type="text/javascript" src="js/jquery-2.1.1.min.js"></script>
+    <!-- Importar materialiaze.js -->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript" src="js/myjs.js"></script>
+</body>
+
+</html>
