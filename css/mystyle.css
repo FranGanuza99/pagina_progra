@@ -1,6 +1,13 @@
 nav {
-    background-color: #383A3A;
-
+    background: rgba(34,34,32,1);
+    background: rgba(46,46,46,1);
+    background: -moz-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(0,0,0,1) 100%);
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(46,46,46,1)), color-stop(100%, rgba(0,0,0,1)));
+    background: -webkit-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(0,0,0,1) 100%);
+    background: -o-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(0,0,0,1) 100%);
+    background: -ms-linear-gradient(top, rgba(46,46,46,1) 0%, rgba(0,0,0,1) 100%);
+    background: linear-gradient(to bottom, rgba(46,46,46,1) 0%, rgba(0,0,0,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#2e2e2e', endColorstr='#000000', GradientType=0 );
 }
 
 .slider .slides li img {
@@ -41,6 +48,11 @@ nav img {
   width: 70px;
 }
 
+nav a {
+  width: 165px;
+  text-align: 0 auto;
+}
+
 nav h4.title {
   margin-left: 140px;
   padding-bottom: -80px;
@@ -66,24 +78,112 @@ nav hr.yellow {
   border-radius: 30px; 
 }
 
-aside {
-  display: table-cell;
-  background-color: lightgray;
-  border-radius: 5px; 
-  padding: 10px;
+
+h4.apart {
+  position: relative;
+  text-align: center;
+
+  padding: 9px;
+
+background: rgba(241,231,103,1);
+background: -moz-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(241,231,103,1)), color-stop(100%, rgba(254,182,69,1)));
+background: -webkit-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -o-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: -ms-linear-gradient(top, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+background: linear-gradient(to bottom, rgba(241,231,103,1) 0%, rgba(254,182,69,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f1e767', endColorstr='#feb645', GradientType=0 );
+
+
+  }
+
+.pagination li.active {
+    background-color: lightblue;
+}
+
+
+div.container div.row ul.pagination {
+  text-align: center;
+  background: rgba(255,255,255,1);
+  background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(47%, rgba(246,246,246,1)), color-stop(100%, rgba(237,237,237,1)));
+  background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 );
+}
+
+div.section {
+  padding-left: 50px;
+
+}
+
+.parallax-container {
+  position: relative;
+  overflow: hidden;
+  height: 400px;
+}
+
+ul.collection#institucional li.collection-item {
+  background-color: #90a4ae  ;
+  border-radius: 5px;
+  margin: 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #000000;
+}
+
+ul.collection#institucional2 li.collection-item {
+  background-color: #90a4ae  ;
+  border-radius: 5px;
+  margin: 5px;
+  -moz-border-radius: 5px 5px 5px 5px;
+-webkit-border-radius: 5px 5px 5px 5px;
+  border: 0px solid #000000;
+}
+
+.center{
   text-align: center;
 }
 
-aside.right {
-  display: table-cell;
-  background-color: lightgray;
-  border-radius: 5px; 
-  padding: 10px;
-  text-align: center;
-  float: right;
+.aparte{
+
+    
+
+    text-align: center;
+    width: 100%;
+     height: 80%;
+     -moz-border-radius: 0 50% / 0 100%;
+     -webkit-border-radius: 0 50% / 0 100%;
+     border-radius: 0 20% / 0 100%;
+     background: #5cb85c;
+     border: 3px solid #5cb85c;
 }
 
-aside hr{
-  height: 1px;
-  margin-bottom: 12px;
+ul.normal{
+  list-style-type: circle;
+}
+
+
+div.collapsible-header#color {
+  background-color: #009688 ;
+} 
+
+div.collapsible-body#color2 {
+  background-color: #4db6ac  ;
+}
+
+.space, ul.space {
+  padding-left: 25px;
+}
+
+#map {
+ height: 50%; 
+ width: 70%;
+ margin: auto;
+}
+
+ html, body { 
+   height: 100%; margin: 0; padding: 0; 
 }
